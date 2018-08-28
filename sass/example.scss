@@ -1,0 +1,25 @@
+
+// // VARIABLE NESTING 
+// div {
+//     background: pink;
+//     div {
+//         background: purple;
+//     }
+// }
+
+// // FOR LOOP 
+// @for $i from 1 through 6 {
+//     div.#{div+$i}{
+//         background: lighten(#000, $i*10%);
+//     }
+//     @debug $i;
+// }
+
+// //Mixin
+// @import "./mixin";
+// div.div1{
+//     @include giant-stuff();
+// }
+// div.div2{
+//     @include giant-stuff(25);
+// }
