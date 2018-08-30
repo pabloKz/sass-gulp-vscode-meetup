@@ -1,7 +1,11 @@
-div {
-    background: black;
-    color: white;
-    width: 200px;
+li{
     padding: 1em;
     margin: 1em;
+    color: white;
+    background-color: black;
+    width: 20em;
+}
+div{
+    padding: 1em;
+    background: blue;
 }

@@ -1,6 +1,6 @@
 
 // // VARIABLE NESTING 
-// div {
+// li {
 //     background: pink;
 //     div {
 //         background: purple;
@@ -9,17 +9,26 @@
 
 // // FOR LOOP 
 // @for $i from 1 through 6 {
-//     div.#{div+$i}{
+//     li.#{element+$i}{
 //         background: lighten(#000, $i*10%);
 //     }
 //     @debug $i;
 // }
 
+// // Each
+// $colors-map: (1:purple, 2:red, 3: green, 4: brown, 5:pink, 6:grey);
+// @each $index, $color in $colors-map {
+//     .#{element+$index} {
+//         background-color: $color;
+//     }
+// }
+
 // //Mixin
 // @import "./mixin";
-// div.div1{
+// li.element1{
 //     @include giant-stuff();
 // }
-// div.div2{
+
+// li.element2{
 //     @include giant-stuff(25);
 // }
